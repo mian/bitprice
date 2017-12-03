@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "BitCoinPrice",
+  "short_name": "BitCoinPrice",
+  "description": "Replace the new tab with the current price of BitCoin",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "assets/img/btc.png",
+    "48": "assets/img/btc.png",
+    "128": "assets/img/btc.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "bitcoin.html"
+  },
+  "homepage_url": "http://mianasif.info/",
+  "browser_action": {
+    "default_title": "BitCoinPrice",
+    "default_icon": "assets/img/btc.png"
+  }
+}
